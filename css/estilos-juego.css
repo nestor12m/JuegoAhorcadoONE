@@ -9,6 +9,13 @@
     box-sizing: border-box;
    
 }
+body{
+    background-image: url(../img/1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    font-family: 'Roboto Condensed', sans-serif;
+}
 
 .contenedor-area{
     margin: 10px auto;
