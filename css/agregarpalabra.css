@@ -66,6 +66,7 @@ main{
     padding-left: 10px ;
     padding-top: 10px;
     font-size: 22px;
+    color:white;
 }
 .contenedor-c1  textarea:focus{
     border: none;

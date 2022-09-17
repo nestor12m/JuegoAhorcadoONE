@@ -42,6 +42,14 @@ main{
     text-align: center;
     border-radius: 5px;
 }
+.contenedor-palinco input{
+    font-size: 20px;
+    text-align: center;
+    height: 49px;
+    width: 300px;
+    background-color: #cccccc80;
+    border: none;
+}
 .contenedor-btns{
     margin: 10px auto;
     height: 150px;
@@ -84,7 +92,42 @@ main{
     background-color: rgb(1, 23, 122);
 }
 
+.contenedor-img img{
+    width: 29px;
+    height: 29px;
+    margin-top:10px;
+    margin-left:10px;
+}
+
+footer{
+    margin-top: 100px;
+    height: 100px;
+    background-color: #16161656;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+footer p{
+    font-weight:600;
+}
+
 @media(min-width:700px){
+    .contenedor-area{
+    
+       
+        width: 400px;
+       
+    }
+    .contenedor-palinco{
+        
+        width: 400px;
+        
+    }
+    .contenedor-palinco input{
+    width: 400px;
+    }
     .contenedor-btns{
         margin:  0 auto;
         width: 600px;
