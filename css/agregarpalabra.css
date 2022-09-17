@@ -1,22 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@600;900&family=Karla:wght@400;600&family=Montserrat:wght@200;400;900&family=Open+Sans&family=Poppins:wght@200;400;600;900&family=Roboto+Condensed:wght@300;700&family=Roboto:ital,wght@0,400;0,700;1,100;1,300;1,900&display=swap');
 :root{
-    --colorbotones:#cccccc;
+    --colorbnts:red;
 }
 
 *{
-    margin:0px;
+    margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-   
 }
 body{
     /* background-image: url(../img/1.jpeg);
     background-repeat: no-repeat;
     background-size: cover; */
     background-color: aquamarine;
-    /* height: 100vh; */
     font-family: 'Roboto Condensed', sans-serif;
-   
 }
 
 header{
@@ -35,15 +32,47 @@ h1{
     font-weight: bold;;
 }
 main{
-    height: 407px;
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 20px;
    
 
 }
+.contenedor-c1{
+    /* background-color: #cccccc80; */
+    height: 350px;
+    width: 340px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+    gap: 20px;
+}
+.contenedor-c1 p {
+    font-weight: 700;
+    margin-left: -20px;
+}
+.contenedor-c1  textarea{
+    background-image: url(../img/1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    height: 310px;
+    width: 320px;
+    padding-left: 10px ;
+    padding-top: 10px;
+    font-size: 22px;
+}
+.contenedor-c1  textarea:focus{
+    border: none;
+}
+
 .contenedor-principal{
+    margin:  0 auto;
     width: 300px;
     background-color: #cccccc80;
     height: 200px;
@@ -54,26 +83,26 @@ main{
     gap: 20px;
     border-radius: 10px;
 }
+
 .btn1{
     height: 55px;
-    width: 180px;
+    width: 200px;
     border-radius: 10px;
     background-color: rgb(7, 131, 233);
     color:white;
     border: none;
-    font-size: 17px;
-    
+    font-size: 15px;
 }
 .btn2{
     height: 55px;
-    width: 180px;
+    width: 200px;
     border-radius: 10px;
     padding: 5px; 
     background-color: rgb(7, 131, 233);
     color:white;
     border: none;
-    font-size: 17px;
-
+    font-size: 15px;
+    
     
 }
 .btn1:hover{
@@ -82,23 +111,20 @@ main{
 .btn2:hover{
     background-color: rgb(1, 23, 122);
 }
-.contenedor-img img{
-    width: 29px;
-    height: 29px;
-    margin-top:10px;
-    margin-left:10px;
-}
 
-footer{
-    /* margin-top: 200px; */
-    height: 100px;
-    background-color: #16161656;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
-}
-footer p{
-    font-weight:600;
+@media(min-width:700px){
+    .contenedor-principal{
+        margin:  0 auto;
+        width: 600px;
+        background-color: #cccccc80;
+        height: 100px;
+        flex-direction: row;
+        
+    }
+    .btn1{
+        font-size: 17px;
+    }
+    .btn2{
+        font-size: 17px;
+    }
 }
