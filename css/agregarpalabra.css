@@ -9,9 +9,9 @@
     box-sizing: border-box;
 }
 body{
-    /* background-image: url(../img/1.jpeg);
+    background-image: url(../img/1.jpeg);
     background-repeat: no-repeat;
-    background-size: cover; */
+    background-size: cover;
     background-color: aquamarine;
     font-family: 'Roboto Condensed', sans-serif;
 }
@@ -110,6 +110,27 @@ main{
 }
 .btn2:hover{
     background-color: rgb(1, 23, 122);
+}
+
+.contenedor-img img{
+    width: 29px;
+    height: 29px;
+    margin-top:10px;
+    margin-left:10px;
+}
+
+footer{
+    margin-top: 20px;
+    height: 100px;
+    background-color: #16161656;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+footer p{
+    font-weight:600;
 }
 
 @media(min-width:700px){
