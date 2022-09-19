@@ -1,22 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/estilos-juego.css">
-    <title>Jugar</title>
+    <title>Juego Ahorcado</title>
 </head>
 <body>
     <main>
         <div class="contenedor-area">
             <!-- <textarea name="" id="" cols="30" rows="10"></textarea> -->
-            <div>
-                fin del juego
-            </div>
-            <div>
-                <h2>-------------------------</h2>
-            </div>
+            <canvas id="areadibujo"  width="320" height="310"></canvas>
         </div>
 
         <div class="contenedor-palinco">
@@ -24,7 +19,7 @@
         </div>
         
         <div class="contenedor-btns">
-            <a href=""><button class="btn1">Nuevo Juego</button></a>
+            <button class="btn1" onclick="escojerPalabraSecreta()">Nuevo Juego</button>
             <a href="index.html"><button class="btn2">Desistir</button></a>
         </div>
     </main>
@@ -37,5 +32,7 @@
         </div>
     </footer>
     
+    <script src="js/script.js"></script>
+    <script src="js/canvas1.js"></script>
 </body>
 </html>

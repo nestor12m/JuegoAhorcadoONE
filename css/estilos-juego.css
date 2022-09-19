@@ -26,13 +26,20 @@ main{
     margin: 10px auto;
     background-color: #cccccc80;
     height: 350px;
-    width: 300px;
+    width: 320px;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
 }
+canvas {
+    
+    background-color: aqua;
+    height: 350px;
+    width: 320px;
+}
+
 .contenedor-palinco{
     margin: 10px auto;
     background-color: #cccccc80;
